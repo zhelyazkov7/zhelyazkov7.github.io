@@ -1,0 +1,76 @@
+#menu {
+    background: #DDD;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5;
+    font-size: 22px;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+#menu>#loggedInUser {
+    float: right;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+}
+
+#menu a:hover {
+    background: rgb(12, 12, 12);
+}
+
+main>section {
+    display: none;
+    padding: 20px 5px;
+}
+
+section h1 {
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+table th {
+    background: rgb(228, 7, 7);
+    padding: 10px;
+}
+
+table td {
+    padding: 5px 10px;
+    background: #EEE;
+}
+
+#infoBox,
+#errorBox,
+#loadingBox {
+    width: 85%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#loadingBox {
+    background: #d5eb10ee;
+}
+
+#infoBox {
+    background: rgb(36, 233, 36);
+}
+
+#errorBox {
+    background: rgb(231, 7, 7);
+}
+
+footer {
+    background: #DDD;
+    padding: 5px 10px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 3px;
+}
